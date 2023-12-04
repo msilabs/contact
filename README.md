@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://packagist.org/packages/msilabs/contact"><img src="https://img.shields.io/packagist/dt/msilabs/contact" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/msilabs/contact"><img src="https://img.shields.io/packagist/v/msilabs/contact" alt="Latest Stable Version"></a>
+  <a href="https://packagist.org/packages/msilabs/contact"><img src="https://img.shields.io/packagist/l/msilabs/contact" alt="License"></a>
+</p>
+
 # Contact : Laravel Package
 
 This will send email to admin and save contact query in database.
