@@ -1,19 +1,26 @@
 {
-    "name": "msilabs/contact",
-    "description": "This will send email to admin and save contact query in database",
-    "type": "library",
-    "license": "MTI",
-    "autoload": {
-        "psr-4": {
-            "Msilabs\\Contact\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "msisaif",
-            "email": "msi132043@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "msilabs/contact",
+  "description": "This will send email to admin and save contact query in database",
+  "type": "library",
+  "license": "MTI",
+  "autoload": {
+    "psr-4": {
+      "Msilabs\\Contact\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Msilabs\\Contact\\ContactServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "msisaif",
+      "email": "msi132043@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
 }
