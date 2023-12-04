@@ -1,0 +1,19 @@
+{
+    "name": "msilabs/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MTI",
+    "autoload": {
+        "psr-4": {
+            "Msilabs\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "msisaif",
+            "email": "msi132043@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
