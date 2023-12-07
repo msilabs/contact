@@ -10,7 +10,7 @@ This will send email to admin and save contact query in database.
 
 ## Get Started
 
-> **Requires [Laravel 10](https://github.com/laravel/laravel)**
+> **Requires [PHP: ^8.0](https://www.php.net), [Laravel: ^9.0|^10.0](https://laravel.com)**
 
 Install `msilabs/contact` via the [Composer](https://getcomposer.org/) package manager:
 
