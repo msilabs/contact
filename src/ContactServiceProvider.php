@@ -17,6 +17,10 @@ class ContactServiceProvider extends ServiceProvider
         // ]);
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+     
+        $this->publishes([
+            __DIR__.'/../database/migrations/' => database_path('migrations')
+        ], 'contact-migrations');
 
         $this->mergeConfigFrom(
             __DIR__.'/../config/contact.php', 'contact'
